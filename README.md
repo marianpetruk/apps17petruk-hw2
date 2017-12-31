@@ -1,1 +1,2 @@
-# -apps17petruk-hw2
+# SkiPass
+## Homework 2
