@@ -7,9 +7,15 @@ public class Turnstile {
             skipass.use();
             return true;
         } else {
-            skipass.block();
+            blockPass(skipass);
         }
         return false;
+    }
+
+
+    public boolean blockPass(Skipass skipass){
+        skipass.block();
+        return true;
     }
 
     public boolean checkValidity(Skipass skipass) {
